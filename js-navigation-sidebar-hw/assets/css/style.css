@@ -1,0 +1,482 @@
+.sidebar{
+    background: black;
+    width: 50px;
+    height: 100vh;
+    position: relative;
+}
+
+
+.sidebar-active{
+    background: black;
+    width: 260px;
+    height: 100vh;
+    position:relative;
+
+}
+
+.icons .fa-bars{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.icons .fa-square-xmark{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.icons .fa-house.close{
+    color: white;
+    position: absolute;
+    top: 166px;
+    right: 9px;
+    font-size: 28px;
+}
+
+.icons .fa-house.active{
+    color: white;
+    position: absolute;
+    top: 166px;
+    left: 40px;
+    font-size: 28px;
+}
+
+.icons .fa-magnifying-glass.close{
+    color: white;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    font-size: 28px;
+}
+
+   
+
+.icons .fa-magnifying-glass.active{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    font-size: 28px;
+}
+
+.icons .fa-square-poll-vertical.close{
+    color: white;
+    position: absolute;
+    top: 291px;
+    right: 9px;
+    font-size: 35px;
+}
+
+.icons .fa-square-poll-vertical.active{
+    color: white;
+    position: absolute;
+    top: 291px;
+    left: 40px;
+    font-size: 35px;
+}
+
+.icons .fa-file.close{
+    color: white;
+    position: absolute;
+    top: 356px;
+    right: 12px;
+    font-size: 33px;
+}
+.icons .fa-file.active{
+    color: white;
+    position: absolute;
+    top: 356px;
+    left: 40px;
+    font-size: 33px;
+}
+
+.text ul{
+    line-height: 62px;
+    list-style: none;
+    top: 154px;
+    position: absolute;
+    left: 60px;
+}
+
+.text ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.display-mode{
+    width: 100px;
+    height: 40px;
+    background: yellow;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 25px;
+}
+
+.display-mode .turn{
+    width: 90px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: yellowgreen;
+    margin: 5px ;
+    position: relative;
+}
+
+.display-mode .turn .fa-sun{
+    top: 4px;
+    position: absolute;
+    left: 11px;
+    font-size: 23px;
+}
+
+.display-mode .turn .fa-moon{
+    top: 4px;
+    position: absolute;
+    right:11px;
+    font-size: 23px;
+}
+
+ 
+.upper-sidebar{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+    margin-left: -1px;
+} 
+
+
+.upper-sidebar.active{
+    width: 100%;
+    height: 100px;
+   background-color: black;
+   position: relative;
+} 
+
+.sidebars{
+    display: flex;
+}
+
+.upper-sidebar .fa-bars.upper{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.upper-sidebar .fa-square-xmark.upper{
+    color: white;
+    position: absolute;
+    top: 52px;
+    right: 11px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.upper-sidebar .fa-cart-shopping{
+    color: white;
+    position: absolute;
+    top: 13px;
+    right: 261px;
+    font-size: 27px;
+}
+
+.upper-sidebar .fa-cart-shopping.active{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 261px;
+    font-size: 27px;
+}
+
+.upper-sidebar .fa-gears{
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: 386px;
+    font-size: 30px;
+}
+
+
+.upper-sidebar .fa-gears.active{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 410px;
+    font-size: 30px;
+}
+
+.upper-sidebar .fa-message{
+    color: white;
+    position: absolute;
+    top: 14px;
+    right: 540px;
+    font-size: 25px;
+}
+
+.upper-sidebar .fa-message.active{
+    color: white;
+    position: absolute;
+    top: 35px;
+    right: 600px;
+    font-size: 25px;
+}
+
+.text-upper ul{
+    list-style: none;
+    top: 35px;
+    position: absolute;
+    right: 191px;
+    display: flex;
+    gap: 109px;
+}
+
+.text-upper.left ul{
+    list-style: none;
+    top: 35px;
+    position: absolute;
+    right: 378px;
+    display: flex;
+    gap: 82px;
+}
+
+.text-upper ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.sidebar.right{
+    width: 50px;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    
+} 
+
+
+.sidebar.right.active{
+
+   background: black;
+   width: 260px;
+   height: 100vh;
+   position:relative;
+} 
+
+
+.icons-right .fa-bars{
+    color: white;
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.icons-right .fa-square-xmark{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.icons-right .fa-house.close{
+    color: white;
+    position: absolute;
+    top: 166px;
+    right: 9px;
+    font-size: 28px;
+}
+
+.icons-right .fa-house.active{
+    color: white;
+    position: absolute;
+    top: 166px;
+    left: 40px;
+    font-size: 28px;
+}
+
+.icons-right .fa-magnifying-glass.close{
+    color: white;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    font-size: 28px;
+}
+
+   
+
+.icons-right .fa-magnifying-glass.active{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    font-size: 28px;
+}
+
+.icons-right .fa-square-poll-vertical.close{
+    color: white;
+    position: absolute;
+    top: 291px;
+    right: 9px;
+    font-size: 35px;
+}
+
+.icons-right .fa-square-poll-vertical.active{
+    color: white;
+    position: absolute;
+    top: 291px;
+    left: 40px;
+    font-size: 35px;
+}
+
+.icons-right .fa-file.close{
+    color: white;
+    position: absolute;
+    top: 356px;
+    right: 12px;
+    font-size: 33px;
+}
+.icons-right .fa-file.active{
+    color: white;
+    position: absolute;
+    top: 356px;
+    left: 40px;
+    font-size: 33px;
+}
+
+.text-right ul{
+    line-height: 62px;
+    list-style: none;
+    top: 154px;
+    position: absolute;
+    left: 60px;
+}
+
+.text-right ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+ 
+.down-sidebar{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+    margin-left: -1px;
+} 
+
+
+.down-sidebar.active{
+    width: 100%;
+    height: 100px;
+   background-color: black;
+   position: relative;
+} 
+
+
+.down-sidebar .fa-bars.down{
+    color: white;
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.down-sidebar .fa-square-xmark.down{
+    color: white;
+    position: absolute;
+    bottom: 52px;
+    left: 11px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+
+.down-sidebar .fa-cart-shopping.down{
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 261px;
+    font-size: 27px;
+}
+
+.down-sidebar .fa-cart-shopping.active{
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    right: 261px;
+    font-size: 27px;
+}
+
+.down-sidebar .fa-gears.down{
+    color: white;
+    position: absolute;
+    bottom: 11px;
+    right: 386px;
+    font-size: 30px;
+}
+
+
+.down-sidebar .fa-gears.active{
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    right: 410px;
+    font-size: 30px;
+}
+
+.down-sidebar .fa-message.down{
+    color: white;
+    position: absolute;
+    bottom: 14px;
+    right: 540px;
+    font-size: 25px;
+}
+
+.down-sidebar .fa-message.active{
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    right: 590px;
+    font-size: 25px;
+}
+
+.text-down ul{
+    list-style: none;
+    bottom: 16px;
+    position: absolute;
+    right: 186px;
+    display: flex;
+    gap: 85px;
+}
+
+.text-down ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+}
